@@ -1,20 +1,17 @@
-# Use official PHP image with Apache
 FROM php:8.2-apache
 
-# Install Composer
+RUN apt-get update && apt-get install -y \
+    unzip \
+    git \
+    libzip-dev \
+    && docker-php-ext-install zip
+
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Enable Apache mod_rewrite (optional but useful)
-RUN a2enmod rewrite
-
-# Set working directory
 WORKDIR /var/www/html
 
-# Copy PHP files and composer files
 COPY . .
 
-# Install PHP dependencies
-RUN composer install
+RUN composer install --no-interaction --no-dev --prefer-dist
 
-# Set the default entrypoint to index.php
-# (Apache does this automatically if index.php exists)
+EXPOSE 80
