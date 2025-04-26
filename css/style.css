@@ -1,0 +1,263 @@
+:root {
+    --miku-teal: #39c5bb;
+    --miku-blue: #2b89b9;
+    --miku-dark: #164e63;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f9ff;
+}
+
+.navbar {
+    background-color: var(--miku-teal);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--miku-dark) !important;
+}
+
+footer {
+    background-color: var(--miku-blue);
+    color: white;
+    padding: 20px 0;
+}
+
+/**
+ * Custom Gallery CSS
+ */
+
+.gallery-container {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper:hover {
+    transform: scale(1.01);
+}
+
+.gallery-image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.gallery-title {
+    color: #39c0ed;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.image-description {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px auto;
+    max-width: 90%;
+}
+
+.size-selector {
+    margin: 20px 0;
+}
+
+.size-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 0 5px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.size-btn:hover {
+    background-color: #39c0ed;
+    color: white;
+}
+
+.size-btn.active {
+    background-color: #39c0ed;
+    color: white;
+    font-weight: bold;
+}
+
+.gallery-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    margin: 20px 0;
+    background-color: #e9ecef;
+    border-radius: 30px;
+}
+
+.prev-btn, .next-btn {
+    background-color: #39c0ed;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: #0d6efd;
+    transform: translateY(-2px);
+}
+
+.image-counter {
+    font-weight: 600;
+    color: #495057;
+}
+
+.thumbnails-container {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 30px;
+}
+
+.thumbnail-item {
+    display: inline-block;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.img-thumbnail {
+    border-radius: 8px;
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+    object-fit: cover;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img-thumbnail.active {
+    border-color: #39c0ed;
+    box-shadow: 0 0 10px #39c0ed;
+}
+
+.favorites-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.favorites-header {
+    background: linear-gradient(135deg, #39c0ed, #0d6efd);
+    color: white;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+
+.add-favorite-btn {
+    border-radius: 25px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+.add-favorite-btn:hover {
+    background-color: #39c0ed;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.page-heading {
+    color: #39c0ed;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.page-subheading {
+    color: #6c757d;
+    font-weight: 400;
+}
+
+/**
+Custom music css
+*/
+
+.music-player {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+.album-cover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.audio-player audio {
+    border-radius: 20px;
+    height: 40px;
+    background-color: #e9ecef;
+}
+
+.music-table tr:hover {
+    background-color: #e3f2fd;
+    cursor: pointer;
+}
+
+.album-card {
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.album-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.concert-item {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    transition: all 0.3s;
+}
+
+.concert-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #e3f2fd;
+}
+
+.producer-image {
+    border: 3px solid #17a2b8;
+    padding: 3px;
+    max-width: 120px;
+}
+
+.category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}

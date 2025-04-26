@@ -1,0 +1,150 @@
+categories:
+  all: All Songs
+  popular: Most Popular
+  classic: Classic Hits
+  recent: Recent Releases
+  concert: Concert Favorites
+
+songs:
+  - id: 1
+    title: World is Mine
+    producer: ryo
+    year: 2008
+    length: 4:15
+    views: 20M+
+    album: supercell
+    categories: [popular, classic, concert]
+    description: One of Miku's most iconic songs, with lyrics describing a spoiled "princess" demanding attention from her "servant".
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/ca25749df1ae67c6c59c35822f84d33ef6df0221_world_is_mine_.mp3
+
+  - id: 2
+    title: Melt
+    producer: ryo
+    year: 2007
+    length: 3:07
+    views: 15M+
+    album: supercell
+    categories: [popular, classic]
+    description: A sweet love song about a girl who has fallen in love and "melts" whenever she sees her crush.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/33ce081fc9498514c750471788175c07f7181bd5_melt.mp3
+
+  - id: 3
+    title: Love is War
+    producer: ryo
+    year: 2008
+    length: 3:58
+    views: 12M+
+    album: supercell
+    categories: [popular, classic]
+    description: An intense song about the pain of unrequited love, comparing love to warfare.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/88a600ea7d7f28d3ef03ff2e26aa2431753fcc0b_love_is_war.mp3
+
+  - id: 4
+    title: Rolling Girl
+    producer: wowaka
+    year: 2010
+    length: 3:39
+    views: 14M+
+    album: Unhappy Refrain
+    categories: [popular, classic]
+    description: A powerful song about a girl who struggles with feelings of inadequacy and societal pressure.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/9460d5120f8e08e7a1cf833233f2ea6a6cdf12e1_rolling_girl.mp3
+
+  - id: 5
+    title: Triple Baka
+    producer: LamazeP
+    year: 2009
+    length: 3:56
+    views: 10M+
+    album: VOCALOID BEST from Nico Nico Douga
+    categories: [popular, classic]
+    description: A fun, energetic song featuring Miku, Neru, and Teto celebrating their "baka" (silly) nature.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/cfd718d85401270991b52a550668d0a8f640c5de_triple_baka.mp3
+
+  - id: 6
+    title: Levan Polkka
+    producer: Otomania
+    year: 2007
+    length: 2:29
+    views: 18M+
+    album: Hatsune Miku - Project DIVA
+    categories: [popular, classic]
+    description: A cover of the Finnish folk song that became one of the earliest viral Miku videos.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/b8f7093681cfc08dac0c3663e46417eafc019843_ievan_polkka.mp3
+
+  - id: 7
+    title: Senbonzakura
+    producer: Kurousa-P
+    year: 2011
+    length: 4:05
+    views: 19M+
+    album: Vocalolegend
+    categories: [popular, concert]
+    description: A fast-paced song combining traditional Japanese themes with modern rock elements.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/c89c0abb43e66a33138057abd73020209640f3d8_senbonzakura.mp3
+
+  - id: 8
+    title: Tell Your World
+    producer: kz (livetune)
+    year: 2012
+    length: 2:15
+    views: 16M+
+    album: Tell Your World EP
+    categories: [popular, concert]
+    description: Used in a Google Chrome commercial, this song helped introduce Miku to a wider international audience.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/3ffd7a7634c0e25650a397719ac02e74f3745468_tell_your_world.mp3
+
+  - id: 9
+    title: Bacterial Contamination
+    producer: OSTER project
+    year: 2009
+    length: 3:51
+    views: 8M+
+    album: OSTER project's Best
+    categories: [classic]
+    description: A darker song with themes of isolation and societal rejection.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/88a563028a5a9c888a51f9248a039d6e0739afd3_bacterial_contamination.mp3
+
+  - id: 10
+    title: Sand Planet
+    producer: HACHI
+    year: 2017
+    length: 4:26
+    views: 9M+
+    album: Magical Mirai 2017
+    categories: [recent, concert]
+    description: The theme song for Magical Mirai 2017, addressing the changing Vocaloid landscape.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/de0d16559ff833af82448562ed3da1e0672ce0bb_sand_planet.mp3
+
+  - id: 11
+    title: Ghost Rule
+    producer: DECO*27
+    year: 2016
+    length: 3:42
+    views: 7M+
+    album: Ghost
+    categories: [recent]
+    description: A fast-paced rock song about living with guilt and regret.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/23dde4a0f70e2762061bc23393e12eab88bb4b2e_ghost_rule.mp3
+
+  - id: 12
+    title: Hibikase
+    producer: Giga-P
+    year: 2014
+    length: 4:01
+    views: 5M+
+    album: Giga Best
+    categories: [recent]
+    description: An upbeat electronic dance track that showcases Miku's vocal range.
+    audio_sample: https://hc-cdn.hel1.your-objectstorage.com/s/v3/0fef500a655cf8351a646716fb43bf7630f428d7_hibikase.mp3
+
+producers:
+  - name: ryo (supercell)
+    image: ../../images/supercell.jpg
+    description: The producer behind some of Miku's most iconic songs including "World is Mine" and "Melt". ryo founded the music group supercell and has significantly influenced the Vocaloid music scene.
+    notable_songs: World is Mine, Melt, Love is War
+    
+  - name: wowaka
+    image: ../../images/wowaka.jpg
+    description: A legendary Vocaloid producer known for his fast-paced rock songs and meaningful lyrics. His works like "Rolling Girl" have become iconic in the Vocaloid community.
+    notable_songs: Rolling Girl, World's End Dancehall, Two-Faced Lovers

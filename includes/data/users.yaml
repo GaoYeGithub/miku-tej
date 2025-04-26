@@ -1,0 +1,37 @@
+users:
+    -
+        username: plz-work
+        password: pass
+        favorite_song: ''
+    -
+        username: miku_fan
+        password: vocaloid2007
+        favorite_song: 'World is Mine'
+    -
+        username: user
+        password: password
+        favorite_song: null
+    -
+        username: test
+        password: test123
+        favorite_song: "Nah, i'll win"
+    -
+        username: newbie
+        password: '123123'
+        favorite_song: null
+    -
+        username: gigoyin127
+        password: gigoyin127@miracle3.com
+        favorite_song: null
+    -
+        username: katie
+        password: katiekatie
+        favorite_song: null
+    -
+        username: hello
+        password: helloworld
+        favorite_song: null
+    -
+        username: '123123'
+        password: '123123'
+        favorite_song: null
