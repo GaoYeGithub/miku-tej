@@ -26,8 +26,3 @@ $gallery_images = [
         'description' => 'Miku in a Pokemon-themed outfit with Pikachu knock-off.'
     ]
 ];
-
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-?>
